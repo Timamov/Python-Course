@@ -1,4 +1,4 @@
-vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
 
 
 def count_vowels(text):
@@ -8,7 +8,7 @@ def count_vowels(text):
     return result
 
 
-word = count_vowels('Aethoiyb')
+word = count_vowels("Aethoiyb")
 print(word)
 
 
@@ -18,5 +18,5 @@ def count_words(sentence):
     return result
 
 
-sen = count_words('Lorem ipsum dolor sit amet dolor sit lr')
-print('Кількість слів в тексті:', sen)
+sen = count_words("Lorem ipsum dolor sit amet dolor sit lr")
+print("Кількість слів в тексті:", sen)
